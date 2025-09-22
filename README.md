@@ -167,3 +167,55 @@ The system relies on communication between **three main components**:
    - Results retrieved and integrated with the main control pipeline.  
 
 ---
+
+# 📊 Experimental Evaluation  
+
+To assess the **performance of the grasping system**, we carried out a structured experimental campaign. The evaluation focused on verifying whether Pepper could **detect, approach, and grasp a bottle** under different environmental lighting conditions.  
+
+---
+
+## 🏗 Experimental Setup  
+
+Two distinct environments were selected for the tests:  
+
+1. 🏢 **Room 1 – Laboratory Room**  
+   - Equipped with computers and large desks.  
+   - Large window providing **natural daylight**.  
+
+2. 💡 **Room 2 – Windowless Room**  
+   - No windows.  
+   - Illuminated exclusively by **artificial light**.  
+
+---
+
+## ✅ Definition of Success  
+
+- **Successful grasp**: Pepper is able to **reach and lift the bottle**.  
+- **Unsuccessful grasp**: Pepper is **unable to grasp or lift** the bottle.  
+
+---
+
+## 🔬 Test Procedure  
+
+- **Total trials**: 30  
+  - 15 trials in Room 1  
+  - 15 trials in Room 2  
+- Robot starts from **different initial positions** in each trial.  
+- Each trial evaluated as **success** or **failure**.  
+
+---
+
+## 📈 Results  
+
+- **Overall success rate**: **60%**  
+- **Room-specific performance**:  
+  - 🌞 Room 1 (natural light): lower success rate.  
+  - 💡 Room 2 (artificial light): **66% success rate**.  
+- **Observation**: Even in Room 1, when switching to **artificial light**, performance improved, approaching the values obtained in Room 2.  
+
+```mermaid
+pie showData
+    title Grasping Success Rate
+    "Successful grasps" : 60
+    "Unsuccessful grasps" : 40
+```
