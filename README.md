@@ -28,7 +28,9 @@ Unlike traditional approaches, this work **excludes the use of fiducial markers,
 - ✅ Execute grasping using Pepper’s **limited hand control** (open/close).  
 - ✅ Achieve the above **within Pepper’s hardware and software constraints**.  
 
-![Pepper](project_images/Pepper.jpg)
+<div align="center">
+  <img src="project_images/Pepper.jpg" width="400">
+</div>
 
 ---
 
@@ -42,8 +44,9 @@ We distinguish between:
 
 👉 Pepper belongs to the **second category**. 
 
-![organigramma](project_images/organigramma.png)
-
+<div align="center">
+  <img src="project_images/organigramma.png" width="400">
+</div>
 ---
 
 ## 🤖 Pepper Robot – Technical Specifications  
