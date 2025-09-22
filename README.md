@@ -256,6 +256,16 @@ pie showData
     "Unsuccessful grasps" : 40
 ```
 
+## 🎥 Presentation & Demo
+
+🔗 Click the links below to explore more about the project:
+
+- 📑 **[Presentation Slides](https://docs.google.com/presentation/d/1EJujSecxnaCC-kSzfm5FOhciKeTwFtNl/edit?usp=sharing&ouid=117738060118821650757&rtpof=true&sd=true)**  
+  Detailed slides of the Master’s Thesis defense with figures, diagrams, and explanations.
+
+- 🤖 **[Video Demo](https://drive.google.com/file/d/1UbjEK2q23-L9A1yrh2Lw8b6iSbi918Xi/view?usp=sharing)**  
+  A complete demonstration of the grasping system implemented on the Pepper humanoid robot.
+
 ## Authors
 - [@Pnlalessio](https://github.com/Pnlalessio)  
 
