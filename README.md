@@ -157,7 +157,7 @@ Depth Anything V2 employs a **teacher-student training strategy**:
 To illustrate the complete process, consider grasping a **bottle**:  
 
 <div align="center">
-  <img src="project_images/system_architecture.png" width="400">
+  <img src="project_images/system_architecture.png" width="700">
 </div>
 
 1. 📷 **Image capture** → Pepper’s forehead camera acquires a real-time RGB frame.  
@@ -199,7 +199,7 @@ The system relies on communication between **three main components**:
    - Results retrieved and integrated with the main control pipeline.  
 
 <div align="center">
-  <img src="project_images/system_components.png" width="400">
+  <img src="project_images/system_components.png" width="700">
 </div>
 
 ---
