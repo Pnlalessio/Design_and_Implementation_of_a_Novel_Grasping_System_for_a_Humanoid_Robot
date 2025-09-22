@@ -260,3 +260,63 @@ pie showData
 - [@Pnlalessio](https://github.com/Pnlalessio)  
 
 ---
+
+## 📚 References
+
+- VisionLab. *Research laboratory of the Department of Computer Science at the Sapienza University of Rome, Italy*.
+
+- Bauer, Z., Escalona, F., Cruz, E., Cazorla, M., & Gomez-Donoso, F. (2019). Refining the Fusion of Pepper Robot and Estimated Depth Maps Method for Improved 3D Perception. *IEEE Access*.
+
+- Yoshida, E. (2018). Robots that look like humans: A brief look into humanoid robotics. *Metode*.
+
+- Siciliano, B., & Khatib, O. (Eds.). (2016). *Springer Handbook of Robotics*. Springer.
+
+- Craig, J. J. (2005). *Introduction to Robotics: Mechanics and Control* (3rd ed.). Pearson Prentice Hall.
+
+- Murray, R. M., Li, Z., & Sastry, S. S. (1994). *A Mathematical Introduction to Robotic Manipulation*. CRC Press.
+
+- Spong, M. W., Hutchinson, S., & Vidyasagar, M. (2020). *Robot Modeling and Control* (2nd ed.). Wiley.
+
+- Siciliano, B., Sciavicco, L., Villani, L., & Oriolo, G. (2009). Robotics: Modelling, planning and control. *Advanced Textbooks in Control and Signal Processing*.
+
+- Buss, S. (2004). Introduction to inverse kinematics with Jacobian transpose, pseudoinverse and damped least squares methods. *IEEE*.
+
+- Sciavicco, L., & Siciliano, B. (2000). Modelling and Control of Robot Manipulators. *Measurement Science and Technology*.
+
+- Whitney, D. E. (1972). The Mathematics of Coordinated Control of Prosthetic Arms and Manipulators. *Journal of Dynamic Systems, Measurement, and Control*.
+
+- Nakamura, Y. (1990). *Advanced Robotics: Redundancy and Optimization*. Addison-Wesley.
+
+- Rosheim, M. E. (1994). *Robot Evolution: The Development of Anthrobotics*. John Wiley & Sons.
+
+- Rosheim, M. E. (2006). *Leonardo's Lost Robots*. Springer.
+
+- Hornyak, T. N. (2006). *Loving the Machine: The Art and Science of Japanese Robots*. Kodansha International.
+
+- Kato, I., Ohteru, S., Kobayashi, H., Shirai, K., & Uchiyama, A. (1974). Information-Power Machine with Senses and Limbs. *On Theory and Practice of Robots and Manipulators: Volume I*.
+
+- Setiawan, S. A., Yamaguchi, J., Hyon, S. H., & Takanishi, A. (1999). Physical interaction between human and a bipedal humanoid robot—realization of human-follow walking. *IEEE International Conference on Robotics and Automation*.
+
+- Akhtaruzzaman, M. (2010). Advancement of Android and Contribution of Various Countries in the Research and Development of the Humanoid Platform. *cscjournals.org*.
+
+- Hirai, K., Hirose, M., Haikawa, Y., & Takenaka, T. (1998). The development of Honda humanoid robot. *IEEE International Conference on Robotics and Automation*.
+
+- Dong, M., & Zhang, J. (2023). A review of robotic grasp detection technology. *Robotica*.
+
+- Hirai, K., Hirose, M., Haikawa, Y., & Takenaka, T. (2001). Development of the Honda Humanoid Robot ASIMO. *IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)*.
+
+- Kaneko, K., Kanehiro, F., Kajita, S., Hirukawa, H., Kawasaki, T., Hirata, M., Akachi, K., & Isozumi, T. (2004). Humanoid robot HRP-2. *IEEE International Conference on Robotics and Automation*.
+
+- Kajita, S., Kanehiro, F., Kaneko, K., Fujiwara, K., Harada, K., Yokoi, K., & Hirukawa, H. (2003). Biped walking pattern generation by using preview control of zero-moment point. *IEEE International Conference on Robotics and Automation*.
+
+- Ogura, Y., Aikawa, H., Shimomura, K., Kondo, H., Morishima, A., Lim, H.-O., & Takanishi, A. (2006). Development of a new humanoid robot WABIAN-2. *IEEE International Conference on Robotics and Automation*.
+
+- Englsberger, J., Werner, A., Ott, C., Henze, B., Roa, M. A., Garofalo, G., Burger, R., Beyer, A., Eiberger, O., Schmid, K., & Albu-Schäffer, A. (2014). Overview of the torque-controlled humanoid robot TORO. *IEEE-RAS Int. Conf. Humanoid Robots*.
+
+- Park, I.-W., Kim, J.-Y., Lee, J., & Oh, J.-H. (2007). Mechanical design of the humanoid robot platform, HUBO. *Advanced Robotics*.
+
+- Metta, G., Sandini, G., Vernon, D., Natale, L., & Nori, F. (2008). The iCub humanoid robot: An open platform for research in embodied cognition. *PerMIS Workshop*.
+
+- Stasse, O., Flayols, T., Budhiraja, R., Giraud-Esclasse, K., Carpentier, J., Mirabel, J., Del Prete, A., Souères, P., Mansard, N., Lamiraux, F., Laumond, J.-P., Marchionni, L., Tome, H., & Ferro, F. (2017). TALOS: A new humanoid research platform targeted for industrial applications. *IEEE-RAS International Conference on Humanoid Robotics*.
+
+
