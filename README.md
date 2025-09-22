@@ -219,3 +219,8 @@ pie showData
     "Successful grasps" : 60
     "Unsuccessful grasps" : 40
 ```
+
+## Authors
+- [@Pnlalessio](https://github.com/Pnlalessio)  
+
+---
