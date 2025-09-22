@@ -271,6 +271,14 @@ pie showData
 
 ---
 
+## 🔒 Code Availability
+
+For privacy and intellectual property reasons, the source code developed during this thesis project cannot be made publicly available.  
+
+The repository contains only the documentation, references, and related materials that describe the work.
+
+---
+
 ## 📚 References
 
 - VisionLab. *Research laboratory of the Department of Computer Science at the Sapienza University of Rome, Italy*.
