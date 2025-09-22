@@ -28,6 +28,8 @@ Unlike traditional approaches, this work **excludes the use of fiducial markers,
 - ✅ Execute grasping using Pepper’s **limited hand control** (open/close).  
 - ✅ Achieve the above **within Pepper’s hardware and software constraints**.  
 
+![Pepper](project_images/Pepper.jpg)
+
 ---
 
 ## 🦾 Background & Motivation  
@@ -38,7 +40,9 @@ We distinguish between:
 - 🚶 **Biped humanoids** – full-body robots with arms and legs.  
 - 🛞 **Upper-body mobile humanoids** – wheeled robots with torso, head, and arms.  
 
-👉 Pepper belongs to the **second category**.  
+👉 Pepper belongs to the **second category**. 
+
+![organigramma](project_images/organigramma.png)
 
 ---
 
