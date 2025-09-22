@@ -47,6 +47,7 @@ We distinguish between:
 <div align="center">
   <img src="project_images/organigramma.png" width="400">
 </div>
+
 ---
 
 ## 🤖 Pepper Robot – Technical Specifications  
@@ -73,6 +74,10 @@ Pepper is a **humanoid robot** developed by **SoftBank Robotics** (formerly Alde
 - Built-in gyroscopes & lasers (not used in this project)  
 - Depth map reconstruction from stereo → **not precise with NAOqi API**  
 
+<div align="center">
+  <img src="project_images/degree_of_freedom.png" width="400">
+</div>
+
 ---
 
 # ⚙️ System Architecture  
@@ -90,6 +95,10 @@ The grasping system is structured into **five interconnected modules**, each res
   - Utilizes **YOLOv10-small** for efficient real-time detection.  
 - **Output**: Bounding box coordinates → input for depth estimation.  
 
+<div align="center">
+  <img src="project_images/object_detection.png" width="400">
+</div>
+
 ---
 
 ### 2. 🟩 Depth Estimation  
@@ -100,13 +109,21 @@ The grasping system is structured into **five interconnected modules**, each res
   - Model used: **Depth Anything V2** (monocular-based, not multi-view).  
 - **Notes**:  
   - Stereo cameras were discarded due to **calibration issues** and **poor depth maps**.  
-  - Monocular estimation proved **more robust** and effective.  
+  - Monocular estimation proved **more robust** and effective.
+
+<div align="center">
+  <img src="project_images/depth_estimation.png" width="400">
+</div>
 
 #### 🔍 How Depth Anything V2 Works  
 Depth Anything V2 employs a **teacher-student training strategy**:  
 1. 🧑‍🏫 **Teacher model** trained exclusively on **high-quality synthetic datasets**.  
 2. 🖼 Teacher generates **pseudo-realistic depth labels** for a large set of **unannotated real images**.  
 3. 🎓 **Student models** are then trained on these pseudo-labeled datasets, allowing them to **generalize to real-world scenarios**.  
+
+<div align="center">
+  <img src="project_images/depth_anything.png" width="400">
+</div>
 
 ---
 
@@ -129,11 +146,19 @@ Depth Anything V2 employs a **teacher-student training strategy**:
   - Extends Pepper’s arm workspace by incorporating **3 lower-body DoF** in addition to the **5 DoF of the arm**.  
   - Provides greater flexibility and reach.  
 
+<div align="center">
+  <img src="project_images/grasping.jpg" width="400">
+</div>
+
 ---
 
 ## 🔄 Module Workflow  
 
 To illustrate the complete process, consider grasping a **bottle**:  
+
+<div align="center">
+  <img src="project_images/system_architecture.png" width="400">
+</div>
 
 1. 📷 **Image capture** → Pepper’s forehead camera acquires a real-time RGB frame.  
 2. 🔍 **Object detection + Depth estimation** → YOLOv10 detects bounding box, Depth Anything V2 generates depth map.  
@@ -172,6 +197,10 @@ The system relies on communication between **three main components**:
    - Runs **Playful Kinematics** (requires **Ubuntu environment**).  
    - Developed on **Windows** → executed via **WSL (Windows Subsystem for Linux)**.  
    - Results retrieved and integrated with the main control pipeline.  
+
+<div align="center">
+  <img src="project_images/system_components.png" width="400">
+</div>
 
 ---
 
